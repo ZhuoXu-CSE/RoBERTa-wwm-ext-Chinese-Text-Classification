@@ -1,1 +1,3 @@
 # RoBERTa-wwm-ext-Chinese-Text-Classification
+
+In this project, RoBERTa-wwm-ext pre-train language model was adopted and fine-tuned for Chinese text classification. The models were able to classify Chinese texts into two categories, containing descriptions of legal behavior and descriptions of illegal behavior. Four different models are also proposed in the project. Those models will use RoBERTa-wwm-ext as their embedding layer and feed the embedding into different neural networks. The motivation behind proposing these models is straightforward. By introducing complex output layer architecture, the overall performance of the models could be improved. All the models were trained on a dataset derived from Chinese public court records.
